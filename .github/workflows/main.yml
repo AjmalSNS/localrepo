@@ -1,0 +1,21 @@
+name:Build & Deploy workflow
+
+on:
+  push:
+     branches:
+        -main
+env:
+ CI:false   
+
+ jobs:
+   build:
+    - name:build
+    runs-on:ubunto-latest
+   
+    steps: 
+       
+
+
+
+   deploy:
+  
